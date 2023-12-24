@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+        <style>
+            body{
+                margin: 0;
+                padding: 10px 20px;
+                box-sizing: border-box;
+            }
+            .input-row{
+                
+                margin: 10px 0;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            table th, tr td {
+                border: 1px solid #111;
+            }
+        </style>
+<body>
+    <div>
+        <h1>bài 2 :</h1>
+        <h2>Danh sách các lớp học</h2>
+        <ol>
+            <li>nguyễn ngọc duy</li>
+            <li>tổng quang anh</li>
+            <li>đinh thu loan</li>
+            <li>hà văn tiến</li>
+            <li>nguyễn hải đăng</li>
+            <li>nguyễn tiến quang</li>
+            <li>nguyễn văn chính</li>
+        </ol>
+    </div>
+
+    <div>
+        <h1>Bài 3:</h1>
+        <p><b>this test is bold</b></p>
+        <p><em>this text is italic</em></p>
+        <p>this is <sub>subscript</sub> and <sup>superscript</sup></p>
+        
+    </div>
+
+    <div>
+        <h1>Bài 4:</h1>
+        <form action="" method="post">
+            <div class="input-row">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="nhập tên" required>
+              </div>
+            
+              <div class="input-row">
+                <label for="username">User Name:</label>
+                <br>
+                <input type="text" id="username" name="username" placeholder="nhập tên đăng nhập" required>
+              </div>
+
+              <div class="input-row">
+                <label for="password">password:</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="nhập mật khẩu" required>
+              </div>
+
+              <div class="input-row">
+                <label for="email">email:</label>
+                <br>
+                <input type="text" id="email" name="email" placeholder="nhập email" required>
+              </div>
+
+              <div class="input-row">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"  placeholder="nhập số điện thoại" required>
+              </div>
+
+              <div class="input-row" >
+                <label>Input Object:</label>
+                <br>
+                <input type="radio" id="student" name="gender" value="student" required>
+                <label for="student">student</label>
+
+                <input type="radio" id="student" name="gender" value="student" required>
+                <label for="student">teacher</label>
+              </div>
+
+              <div class="input-row">
+                <label>Favorite Items:</label><br>
+                <input type="checkbox" id="badminton" name="badminton" value="badminton">
+                <label for="badminton">badminton</label>
+                <input type="checkbox" id="volkeyball" name="volkeyball" value="volkeyball">
+                <label for="volkeyball">volkeyball</label>
+                <input type="checkbox" id="foolball" name="foolball" value="foolball">
+                <label for="foolball">foolball</label>
+              </div>
+
+              <div class="input-row">
+                <label for="image">Your picture:</label><br>
+                <input type="file" id="image" name="image" accept="image/*" required>
+              </div>
+
+              <input type="submit" value="Submit">
+          
+          </form>
+
+
+          <h1>Bài 5 : </h1>
+
+          <div>
+            <table>
+               <tr>
+                <th>họ tên</th>
+                <th>ngày sinh</th>
+                <th>giới tính</th>
+               </tr>
+
+                <tr>
+                  <td>trần anh đức</td>
+                  <td>03/08/1993</td>
+                  <td>nam</td>
+                </tr>
+
+                <tr>
+                  <td>vương thị lê na</td>
+                  <td>04/09/1993</td>
+                  <td>nữ</td>
+                </tr>
+                
+                <tr>
+                    <td>kiều thị thu hằng</td>
+                    <td>04/09/1993</td>
+                    <td>nữ</td>
+                  </tr>
+              </table>
+          </div>
+
+          <h1>bài 6:</h1>
+
+
+          <div>
+            <table>
+                <tr>
+                    <th colspan="2">bảng điểm lớp 9b</th>
+                    <th rowspan="2">toán</th>
+                    <th rowspan="2">lý</th>
+                    <th rowspan="2">hoá</th>
+                </tr>
+                <tr>
+                    <th>stt</th>
+                    <th>họ tên</th>
+                    
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>trần đức anh</td>
+                    <td>8.5</td>
+                    <td>3.0</td>
+                    <td>7.75</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>trần đức anh</td>
+                    <td>8.5</td>
+                    <td>3.0</td>
+                    <td>7.75</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>trần đức anh</td>
+                    <td>8.5</td>
+                    <td>3.0</td>
+                    <td>7.75</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="4">Điểm trung bình cả lớp</td>
+                </tr>
+            </table>
+            
+          </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    height: 300px;
+}
+.left-grid{
+   display: grid;
+   grid-template-rows: repeat(6, 1fr);
+   grid-gap: 5px;
+   align-items: center;
+   height: 300px;
+}
+.item{
+    display: flex;
+    padding: 5px;
+    background-color: #00ced1;
+}
+.right-grid{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    height: 300px;
+}
+.item-title{
+    padding: 5px;
+   color: #111;
+}

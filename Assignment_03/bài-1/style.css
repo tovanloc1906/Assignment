@@ -1,0 +1,61 @@
+.menu{
+    width: 100%;
+    background-color: blue;
+    height: 30px;
+}
+header{
+    width: 100%;
+    background-color: blueviolet;
+    height: 250px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: calc(33.33%);
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item-small {
+    width: calc(50%);
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left {
+    order: 1; 
+    background-color: red;
+  }
+  
+  .center {
+    order: 2;
+    background-color: burlywood;
+  }
+  
+  .right {
+    order: 3; 
+  }
+  
+  .bottom-left {
+    order: 4;
+    background-color: blue;
+  }
+  
+  .bottom-right {
+    order: 5; 
+  }
+footer{
+    background-color: brown;
+    height: 100px;
+}
