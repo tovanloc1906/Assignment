@@ -3,7 +3,7 @@
         max-width: 100%;
         background-color: #fff;
         padding: 1px;
-        height: 650px;
+        height: 550px;
     }ul{
         display: block;
         list-style: none;
@@ -14,9 +14,11 @@
         max-width: 100%;
         height: 50px;
         display: flex;
-        justify-content: center;
+        justify-content: start;
+        padding: 10px;
         align-items: center;
     } .menu-tonggle{
+        display: none;
         max-width: 100%;
         font-weight: bold;
         margin-right: 10px;
@@ -40,8 +42,8 @@
     }.menu-item-mini{
         width: 100%;
         background-color: #ff4500;
-        display: block;
-        height: 700px;
+        display: block; 
+        height: 450px;
     }.item-left{
         max-width: 100%;
         display: flex;
@@ -58,5 +60,7 @@
         justify-content: center;
     }.menu-item-mini ul{
         width: 100%;
+    }#menu{
+        display: none;
     }
 }

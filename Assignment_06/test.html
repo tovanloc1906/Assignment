@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menu-toggle {
+  display: none; /* Ẩn menu toggle mặc định trên PC */
+}
+
+#menu {
+  display: block; /* Hiển thị menu mặc định trên PC */
+}
+
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block; /* Hiển thị menu toggle trên thiết bị di động */
+  }
+  
+  #menu {
+    display: none; /* Ẩn menu mặc định trên thiết bị di động */
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="menu-toggle">
+        <span class="menu-icon">&#9776;</span>
+      </div>
+      <div id="menu">
+        <span class="menu-item">Trang chủ</span>
+        <span class="menu-item">Sản phẩm</span>
+        <span class="menu-item">Liên hệ</span>
+      </div>
+
+      <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'block') {
+    menu.style.display = 'none'; /* Ẩn menu khi nhấp vào toggle */
+  } else {
+    menu.style.display = 'block'; /* Hiển thị menu khi nhấp vào toggle */
+  }
+});
+      </script>
+</body>
+</html>

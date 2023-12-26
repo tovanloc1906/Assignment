@@ -34,13 +34,13 @@
             <div class="menu-tonggle">
                 <span>Responsive Menu</span>
             </div>
-            <div class="menu-icon">
+            <div class="menu-icon" id="menu-toggle">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" id="menu">
             <div class="menu-item-mini">
                 <div class="item-left">
                     <ul>
@@ -64,7 +64,14 @@
    
 
     <script>
-       
+       document.getElementById('menu-toggle').addEventListener('click', function() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'block') {
+    menu.style.display = 'none'; /* Ẩn menu khi nhấp vào toggle */
+  } else {
+    menu.style.display = 'block'; /* Hiển thị menu khi nhấp vào toggle */
+  }
+});
     </script>
 </body>
 </html>

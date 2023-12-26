@@ -29,7 +29,7 @@
   }
 .menu-item{
     max-width: 100%;
-    display: flex;
+    display: block;
     padding: 10px;  
 }
 .menu-item-mini{
